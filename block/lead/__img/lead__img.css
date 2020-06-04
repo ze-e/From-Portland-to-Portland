@@ -1,11 +1,9 @@
 .lead__img{
   max-width: 984px;
   height: 615px;
-  text-align: left;
   margin-top: 56px;
   padding-right: 148px;
   padding-left: 148px;
-  background-image: url(../../../images/kalegin-michail-179870-unsplash.jpg);
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,8 +18,7 @@
   .lead__img{
     padding-right: 0px;
     padding-left: 0px;
-    max-width: 100%;
-    object-fit: cover;
+    width: 768px;
   }
 }
 
