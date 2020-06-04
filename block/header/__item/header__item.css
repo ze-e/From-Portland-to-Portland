@@ -1,0 +1,15 @@
+.header__item:first-of-type .header__lang-link{
+  text-decoration: underline;
+}
+
+.header__item:last-of-type .header__lang-link{
+  text-decoration: none;
+}
+
+.header__item:first-of-type{
+  margin-right: 18px;
+}
+
+.header__item:last-of-type{
+  margin-right: 0px;
+}
