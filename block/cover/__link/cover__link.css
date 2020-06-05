@@ -17,11 +17,23 @@
   background: #2A2C2F;
   opacity: 0.3;
   position: absolute;
-  width: 100%
+  width: 100%;
   transition: 0.3s;
   z-index: -1;
 }
 
 .cover__link:hover::before {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+
+.cover__link{
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100vw;
+}
+.cover__link::before {
+  width: 100vw;
+  }
 }
