@@ -34,6 +34,7 @@
   .photo-grid{
     padding-left: 16px;
     padding-right: 16px;
+    display: inline-grid;
 
     grid-gap: 12px;
     grid-template-columns: 288px;

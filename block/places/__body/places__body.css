@@ -1,3 +1,11 @@
 .places__body{
   display: flex;
 }
+
+@media screen and (max-width: 320px) {
+  .places__body{
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
