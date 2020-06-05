@@ -5,8 +5,6 @@
 @media screen and (max-width: 320px) {
   .places__body{
     flex-direction: column;
-    padding-left: 0px;
-    padding-right: 0px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
