@@ -1,9 +1,0 @@
-.places__place{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 80px;
-}
-
-.places__place:last-of-type{
-  margin-bottom: 0px;
-}

@@ -1,0 +1,15 @@
+.place__title-column{
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__title-column{
+    margin-right: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title-column{
+    margin-right: 28px;
+  }
+}

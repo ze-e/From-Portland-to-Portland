@@ -1,0 +1,42 @@
+.place__paragraph{
+  margin-bottom: 24px;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+
+  padding-right: 148px;
+
+}
+
+.place__paragraph:first-of-type{
+  margin-top: 0px;
+}
+
+.place__paragraph:last-of-type{
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph{
+    padding-right: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph{
+    padding-right: 24px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph{
+    padding-right: 16px;
+    padding-left: 16px;
+
+  }
+}
