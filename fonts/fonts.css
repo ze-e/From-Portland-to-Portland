@@ -1,15 +1,15 @@
-@import url('https://rsms.me/inter/inter.css');
-  html { 
+@import url(./Inter-3.13/Inter\ Web/Inter.css);
+  .page { 
     font-family: 'Inter', sans-serif; 
   
   }
 @supports (font-variation-settings: normal) {
-  html { 
+  .page { 
     font-family: 'Inter var', sans-serif; 
   }
 }
 
-html{
+.page{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;

@@ -1,0 +1,32 @@
+.lead__image-container{
+  max-width: 984px;
+  height: 615px;
+  margin-top: 56px;
+  padding-right: 148px;
+  padding-left: 148px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image-container{
+    padding-left: 48px;
+    padding-right: 48px;
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image-container{
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image-container{
+    width: 320px;
+    height: 200px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
