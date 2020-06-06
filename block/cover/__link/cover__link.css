@@ -1,47 +1,21 @@
 .cover__link{
   text-decoration: none;
-/*  margin-left: 48px;
-  margin-right: 48px;
-  width: 1184px;
-  height: 740px;
- background-image: url(../../../images/cover-image.jpg);*/
-
-  /*display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;*/
-  z-index: 1;
-
-  width: 100%;
-  position: absolute;
-  top:50%;
-  left: 50%;
 
 }
-/*
 .cover__link::before {
   content: '';
   background: #2A2C2F;
   opacity: 0.3;
   position: absolute;
-  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   transition: 0.3s;
   z-index: -1;
+
 }
 
 .cover__link:hover::before {
   opacity: 0.8;
 }
-
-@media screen and (max-width: 1024px) {
-
-.cover__link{
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 100vw;
-}
-.cover__link::before {
-  width: 100vw;
-  }
-}
-*/
