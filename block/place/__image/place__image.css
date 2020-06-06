@@ -3,6 +3,7 @@
   object-fit: contain;
   align-self: start;
   padding-left: 148px;
+  margin-right: 40px;
 
 }
 
@@ -28,5 +29,7 @@
     max-width: 100vw;
     padding-left: 0px;
     padding-right: 0px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 
 }

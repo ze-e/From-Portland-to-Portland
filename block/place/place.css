@@ -2,19 +2,23 @@
 @import url(./__paragraph/place__paragraph.css);
 @import url(./__title-column/place__title-column.css);
 @import url(./__title/place__title.css);
-
-
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__website/place__website.css);
+@import url(./__text-column/place__text-column.css);
 
 .place{
-  display: flex;
-  margin-bottom: 80px;
+  margin-top: 92px;
 }
+
+@media screen and (max-width: 768px) {
+  .place{
+    margin-top: 88px;
+  }
 
 @media screen and (max-width: 320px) {
   .place{
+    display: flex;
     flex-direction: column;
-    margin-bottom: 48px;
+    margin-top: 48px;
   }
 }

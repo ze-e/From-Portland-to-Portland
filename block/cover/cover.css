@@ -4,6 +4,22 @@
 @import url(./__title/cover__title.css);
 
 .cover{
+  margin-top: 92px;
   margin-bottom: 92px;
   z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .cover{
+    margin-top: 88px;
+    margin-bottom: 88px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .cover{
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
 }
