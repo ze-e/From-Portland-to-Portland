@@ -4,8 +4,8 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 
-  max-width: 984px;
-  height: 615px;
+  min-width: 984px;
+  /*height: 615px;*/
   margin-top: 56px;
   padding-right: 148px;
   padding-left: 148px;
@@ -15,7 +15,7 @@
   .lead__image-container{
     padding-left: 48px;
     padding-right: 48px;
-    width: 928px;
+    min-width: 928px;
   }
 }
 
@@ -23,14 +23,14 @@
   .lead__image-container{
     padding-right: 0px;
     padding-left: 0px;
-    width: 768px;
+    min-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__image-container{
-    width: 320px;
-    height: 200px;
+
+    width: 100%;
     padding-right: 0px;
     padding-left: 0px;
   }
