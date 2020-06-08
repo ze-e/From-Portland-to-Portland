@@ -11,3 +11,9 @@
   color: white;
 }
 
+@media screen and (max-width: 320px) {
+  .cover{
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

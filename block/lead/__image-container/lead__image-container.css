@@ -5,10 +5,10 @@
     margin-inline-end: 0px;
 
   min-width: 984px;
-  /*height: 615px;*/
   margin-top: 56px;
   padding-right: 148px;
   padding-left: 148px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
@@ -30,7 +30,7 @@
 @media screen and (max-width: 320px) {
   .lead__image-container{
 
-    width: 100%;
+    max-width: 320px;
     padding-right: 0px;
     padding-left: 0px;
   }

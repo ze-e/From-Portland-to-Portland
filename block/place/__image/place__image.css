@@ -4,7 +4,6 @@
   align-self: start;
   padding-left: 148px;
   margin-right: 40px;
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -13,6 +12,8 @@
     max-width: 440px;
 
     padding-left: 48px;
+    margin-right: 32px;
+
   }
 }
 
@@ -21,6 +22,8 @@
     max-width: 340px;
 
     padding-left: 24px;
+    margin-right: 28px;
+
   }
 }
 

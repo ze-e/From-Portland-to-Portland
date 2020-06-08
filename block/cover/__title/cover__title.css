@@ -13,3 +13,11 @@
   margin-right: auto;
   z-index: 2;
 }
+
+@media screen and (max-width: 320px) {
+  .cover{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
