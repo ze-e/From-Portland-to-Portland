@@ -1,29 +1,16 @@
-/* fonts */
-
-@import url(../../fonts/Inter-3.13/Inter\ Web/inter.css);
   .page { 
-    font-family: 'Inter', sans-serif; 
-  
-  }
-@supports (font-variation-settings: normal) {
-  .page { 
-    font-family: 'Inter var', sans-serif; 
-  }
-}
+  /* fonts */
+    font-family: 'Inter', Arial, sans-serif; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
 
-.page{
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-}
-
-/* page */
-.page{
-  max-width: 1280px;
-  background: #2A2C2F;
-  margin: auto;
+  /* page */
+    max-width: 1280px;
+    background: #2A2C2F;
+    margin: auto;
 }
 
 

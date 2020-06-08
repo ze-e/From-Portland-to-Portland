@@ -9,10 +9,7 @@
   display: flex;
   flex-direction: column;
   padding-left: 148px;
-  padding-right: 286px;
-
-  max-width: 984px;
-  box-sizing: border-box;
+  max-width: 690px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,6 +21,7 @@
 
 @media screen and (max-width: 768px) {
   .intro{
+    max-width: 720px;
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -31,6 +29,7 @@
 
 @media screen and (max-width: 320px) {
   .intro{
+    max-width: 288px;
     padding-left: 16px;
     padding-right: 16px;
   }

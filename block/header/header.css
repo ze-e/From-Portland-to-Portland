@@ -1,6 +1,9 @@
 @import url(./__item/header__item.css);
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__lang-links/header__lang-links.css);
+@import url(./_active/header__lang-link_active.css);
+@import url(./_active/header__lang-link_inactive.css);
+
 @import url(./__logo/header__logo.css);
 
 .header{

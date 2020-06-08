@@ -6,8 +6,7 @@
   padding-right: 48px;
   display: grid;
   grid-gap: 16px;
-  grid-template-columns:repeat( auto-fit, min(284px) );
-  grid-template-rows: repeat( auto-fit, min(213px) );
+  grid-template-columns:repeat(auto-fit, minmax(284px, 1fr));
 
 }
 
@@ -15,9 +14,6 @@
 
 .photo-grid{
   grid-gap: 14px;
-
-  grid-template-columns:repeat( auto-fit, min(300px) );
-  grid-template-rows: repeat( auto-fit, min(225px) );
 
 }
 
@@ -29,8 +25,6 @@
       padding-right: 24px;
 
       grid-gap: 16px;
-      grid-template-columns:repeat( auto-fit, min(352px) );
-      grid-template-rows: repeat( auto-fit, min(264px) );
 
     }
 }
@@ -42,9 +36,6 @@
     padding-right: 16px;
 
     grid-gap: 6px;
-
-    grid-template-columns:repeat( auto-fit, min(288px) );
-    grid-template-rows: repeat( auto-fit, min(216px) );
 
   }
 }
