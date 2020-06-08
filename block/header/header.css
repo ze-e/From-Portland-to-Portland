@@ -8,10 +8,7 @@
   display: flex;
   justify-content: space-between;
   padding:0 148px;
-  padding: 148px;
 
-  max-width: 984px;
-  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
