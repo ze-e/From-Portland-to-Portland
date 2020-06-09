@@ -13,6 +13,10 @@
   margin-top: 58px;
   padding-right: 148px;
   padding-left: 148px;
+
+ /* max-width: 720px;*/
+  box-sizing: border-box;
+  max-width: 1280px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,6 +24,17 @@
     padding-left: 48px;
     padding-right: 48px;
     margin-top: 50px;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title{
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-top: 50px;
+
+
   }
 }
 
@@ -27,7 +42,8 @@
   .lead__title{
     padding-left: 16px;
     padding-right: 16px;
-    max-width: 288px;
+    /*max-width: 288px;*/
+    max-width: 320px;
 
     font-size: 40px;
     line-height: 44px;
