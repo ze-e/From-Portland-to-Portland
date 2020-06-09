@@ -1,9 +1,0 @@
-.place__text-column{
-  display: flex;
-}
-
-@media screen and (max-width: 320px) {
-  .place__text-column{
-    flex-direction: column;
-  }
-}
