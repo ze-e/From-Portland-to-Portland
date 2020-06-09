@@ -14,9 +14,7 @@
   padding-right: 148px;
   padding-left: 148px;
 
- /* max-width: 720px;*/
-  box-sizing: border-box;
-  max-width: 1280px;
+  max-width: 720px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -42,8 +40,7 @@
   .lead__title{
     padding-left: 16px;
     padding-right: 16px;
-    /*max-width: 288px;*/
-    max-width: 320px;
+    max-width: 288px;
 
     font-size: 40px;
     line-height: 44px;
