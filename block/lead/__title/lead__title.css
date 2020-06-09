@@ -12,8 +12,9 @@
   color: white;
   padding-right: 148px;
   padding-left: 148px;
-  margin: auto;
   max-width: 720px;
+  margin: auto;
+
 }
 
 @media screen and (max-width: 1024px) {
