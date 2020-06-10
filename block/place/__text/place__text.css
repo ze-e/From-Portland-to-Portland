@@ -6,6 +6,7 @@
   font-size: 18px;
   line-height: 30px;
   color: white;
+  grid-area: text;
 }
 
 .place__text:first-of-type{

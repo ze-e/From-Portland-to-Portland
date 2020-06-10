@@ -1,16 +1,19 @@
+@import url(./__link/place__link.css);
 @import url(./__image/place__image.css);
 @import url(./__text/place__text.css);
 @import url(./__title/place__title.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__website/place__website.css);
+
 .place{
   margin-top: 92px;
   display: grid;
   grid-gap: 40px;
+  row-gap: 48px;
   grid-template-columns: 1fr 1fr;
+
   margin-right: 148px;
   margin-left: 148px;
-	grid-auto-rows: 1fr;
 
 }
 
@@ -20,6 +23,7 @@
     margin-left: 48px;
 
   }
+}
 
 @media screen and (max-width: 768px) {
   .place{
@@ -28,6 +32,7 @@
     margin-left: 24px;
 
   }
+}
 
 @media screen and (max-width: 320px) {
   .place{
