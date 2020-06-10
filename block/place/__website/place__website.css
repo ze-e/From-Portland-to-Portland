@@ -1,24 +1,9 @@
 .place__website{
   color: white;
-  min-height: 76px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: 48px;
   grid-area: website;
-}
-
-@media screen and (max-width: 768px) {
-  .place__title{
-    min-height: 46px;
-
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__title{
-    min-height: 35px;
-  }
 }
 
 @media screen and (max-width: 320px) {
