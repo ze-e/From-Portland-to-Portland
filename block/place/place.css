@@ -46,7 +46,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .place{
     margin-top: 48px;
     grid-template-columns: auto;
