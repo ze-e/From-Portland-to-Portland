@@ -1,5 +1,5 @@
 # From Portland to Portland
-https://ze-e.github.io/web_project_3/
+https://ze-e.github.io/From-Portland-to-Portland/
 ### Overview
 * Intro
 * Figma
